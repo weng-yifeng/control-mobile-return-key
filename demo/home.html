@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+	<title>home-page</title>
+
+<style type="text/css">
+
+body {
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin: 0 0 10px 20%;
+	text-align: left;
+}
+
+</style>
+
+</head>
+<body>
+	
+	<h3>Hello! Welcome to home page</h3>
+
+	<p>请选择以下两种方式之一：</p>
+	<div id="radio_container">
+		<label>
+			<input type="radio" name="returnType" value="customEvent">自定义事件（此处是弹窗）
+		</label>
+		<label>
+			<input type="radio" name="returnType" value="defaultEvent">还原默认行为
+		</label>
+	</div>
+	
+	<p>请尝试点击手机的物理返回键</p>
+	
+
+<script type="text/javascript" src="js/controlReturnKey.js"></script>
+<script type="text/javascript" src="js/demo.js"></script>
+</body>
+</html>
