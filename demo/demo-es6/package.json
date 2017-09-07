@@ -1,0 +1,13 @@
+{
+  "name": "control-mobile-return-key",
+  "version": "1.0.0",
+  "description": "control mobile return key",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wengyifeng",
+  "license": "ISC"
+}
