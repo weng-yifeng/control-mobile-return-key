@@ -55,6 +55,10 @@ control_return_key.defaultEvent();
 
 请查看完整的 Demo 实例，路径：demo/demo-es5
 
+请用你的手机扫描以下二维码体验：
+
+![es5二维码](/resources/images/es5-demo.png)
+
 ### ES6
 
 如果你的项目使用 Webpack 打包，允许使用 ES6 的模块，那么请使用 dist/controlreturnkey-module.js 这个 js 文件。
