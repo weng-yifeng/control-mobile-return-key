@@ -55,7 +55,7 @@ control_return_key.defaultEvent();
 
 请查看完整的 Demo 实例，路径：demo/demo-es5
 
-请用你的手机扫描以下二维码体验：
+请[点击此处](https://wengyifeng-hl.github.io/control-mobile-return-key/demo/demo-es5/forward.html)或用手机扫描以下二维码体验：
 
 ![es5二维码](/resources/images/es5-demo.png)
 
