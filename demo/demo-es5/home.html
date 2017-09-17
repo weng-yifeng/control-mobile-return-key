@@ -7,14 +7,19 @@
 
 <style type="text/css">
 
-body {
+h3 {
 	text-align: center;
 }
-
+.content {
+	padding-left: 30px;
+	width: 300px;
+	margin: 0 auto;
+}
 label {
 	display: block;
-	margin: 0 0 10px 20%;
-	text-align: left;
+}
+.about {
+	display: block;
 }
 
 </style>
@@ -24,17 +29,22 @@ label {
 	
 	<h3>Hello! Welcome to home page</h3>
 
-	<p>请选择以下两种方式之一：</p>
-	<div id="radio_container">
-		<label>
-			<input type="radio" name="returnType" value="customEvent">自定义事件（此处是弹窗）
-		</label>
-		<label>
-			<input type="radio" name="returnType" value="defaultEvent">还原默认行为
-		</label>
+	<div class="content">
+		<p>请选择以下两种方式之一：</p>
+		<div id="radio_container">
+			<label>
+				<input type="radio" name="returnType" value="customEvent">自定义事件（此处是弹窗）
+			</label>
+			<label>
+				<input type="radio" name="returnType" value="defaultEvent">还原默认行为
+			</label>
+		</div>
+		
+		<p>请尝试点击手机的物理返回键</p>
+
+		<span class="about">相关内容：</span>
+		<a href="https://github.com/wengyifeng-HL/control-mobile-return-key">control-mobile-return-key</a>		
 	</div>
-	
-	<p>请尝试点击手机的物理返回键</p>
 	
 
 <script type="text/javascript" src="js/controlreturnkey.js"></script>
