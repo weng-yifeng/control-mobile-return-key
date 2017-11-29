@@ -18,12 +18,3 @@ document.getElementById('radio_container').addEventListener('click', function (e
 	}
 
 });
-
-//打开微信应用
-var appInfo = {
-    "pname" : "com.tencent.mm",
-    "action" : "weixin:/" + "/"
-};
-plus.runtime.launchApplication(appInfo, function(ex) {
-    mui.alert("请检查本设备是否已安装微信应用！", "打开失败");
-});
